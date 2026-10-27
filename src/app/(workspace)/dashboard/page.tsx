@@ -77,7 +77,7 @@ export default function DashboardPage() {
               ☷
             </span>
             <h3>把要做的事，一件件理清</h3>
-            <p>任务管理完成后，这里将汇总重要待办。</p>
+            <p>任务页已支持录入与本地保存，首页汇总将在后续实现。</p>
             <Link href="/tasks" className="text-link">
               查看任务页面 <span aria-hidden="true">→</span>
             </Link>
@@ -85,7 +85,7 @@ export default function DashboardPage() {
         </section>
       </div>
       <PreviewNote>
-        当前仅实现页面与导航；课程录入、任务操作和本地保存将在后续 Issue
+        任务管理已支持本地增删改查；课程录入与首页数据联动将在后续 Issue
         中实现。
       </PreviewNote>
     </>
