@@ -33,9 +33,7 @@ export default function WorkspaceLayout({
             <br />
             让学习事务各就其位。
           </p>
-          <span className="text-xs text-slate-500">
-            M0 · Issue 1 / 页面与导航
-          </span>
+          <span className="text-xs text-slate-500">M0 · 本地学习工作台</span>
         </div>
         <p className="sidebar-footer">
           AI Campus OS <span>正在构建中</span>
@@ -55,7 +53,7 @@ export default function WorkspaceLayout({
           {children}
         </main>
         <footer className="content-footer">
-          先把今天安排清楚。<span>仅页面预览 · 无真实学习数据</span>
+          先把今天安排清楚。<span>本地演示版 · 数据仅保存在当前浏览器</span>
         </footer>
       </div>
       <div className="mobile-nav-container">
